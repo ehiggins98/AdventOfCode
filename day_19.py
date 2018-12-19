@@ -107,5 +107,3 @@ class Ops:
         result = copy.deepcopy(registers)
         result[c] = int(a == b)
         return result
-
-print(part2())
